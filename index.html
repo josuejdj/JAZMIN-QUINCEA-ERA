@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff7f7">
+  <meta name="description" content="Una invitación especial para celebrar los quince años de Jazmin.">
+  <title>Mis XV años | Jazmin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Cargando invitación">
+    <div class="loader__ornament">✦</div>
+    <p>Preparando una noche mágica...</p>
+  </div>
+
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Activar música" aria-pressed="false">
+    <span class="music-toggle__icon">♫</span><span class="music-toggle__label">Música</span>
+  </button>
+  <audio id="backgroundMusic" loop preload="none">
+    <source src="assets/Chayanne - Tiempo De Vals (Vídeo Oficial).mp3" type="audio/mpeg">
+  </audio>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero__glow"></div>
+      <div class="hero__content reveal">
+        <p class="eyebrow">Una noche para recordar</p>
+        <div class="hero__divider"><span>✧</span></div>
+        <p class="hero__intro">Mis quince años</p>
+        <h1 class="script-name">Jazmin</h1>
+        <p class="hero__date">15 · 11 · 2026</p>
+        <p class="hero__message">Con mucha ilusión, quiero compartir contigo<br>uno de los días más especiales de mi vida.</p>
+        <a class="button button--gold" href="#invitacion">Descubrir invitación <span>↓</span></a>
+      </div>
+      <div class="hero__bottom">Con cariño, Jazmin</div>
+      <span class="sparkle sparkle--one">✧</span><span class="sparkle sparkle--two">✦</span>
+      <span class="sparkle sparkle--three">✧</span><span class="sparkle sparkle--four">✦</span>
+    </section>
+
+    <section class="intro section section--light" id="invitacion">
+      <div class="section-flower">❀</div>
+      <p class="eyebrow reveal">Un día inolvidable</p>
+      <h2 class="section-title reveal">¡Mis XV años!</h2>
+      <p class="intro__copy reveal">Hay momentos que se convierten en recuerdos para toda la vida. Me encantaría que formes parte de esta celebración llena de alegría, amor y sueños.</p>
+      <p class="script-note reveal">¡Te espero!</p>
+      <div class="ornament reveal"><span></span> ✧ <span></span></div>
+    </section>
+
+    <section class="countdown section" aria-labelledby="countdownTitle">
+      <div class="countdown__overlay"></div>
+      <div class="countdown__inner reveal">
+        <p class="eyebrow">La cuenta regresiva ha comenzado</p>
+        <h2 id="countdownTitle" class="section-title section-title--light">Falta muy poco</h2>
+        <div class="countdown-grid" id="countdown" data-date="2026-11-15T19:00:00-05:00">
+          <div class="countdown-unit"><strong id="days">00</strong><span>Días</span></div>
+          <div class="countdown-unit"><strong id="hours">00</strong><span>Horas</span></div>
+          <div class="countdown-unit"><strong id="minutes">00</strong><span>Minutos</span></div>
+          <div class="countdown-unit"><strong id="seconds">00</strong><span>Segundos</span></div>
+        </div>
+        <p class="countdown__caption">Cada segundo nos acerca a una noche mágica.</p>
+      </div>
+    </section>
+
+    <section class="details section section--light" id="detalles">
+      <p class="eyebrow reveal">Celebremos juntos</p>
+      <h2 class="section-title reveal">Detalles del evento</h2>
+      <div class="details-grid">
+        <article class="detail-card reveal">
+          <div class="detail-card__icon">♧</div>
+          <h3>La fecha</h3>
+          <p>Domingo</p><strong>15 de noviembre</strong><p>2026</p>
+        </article>
+        <article class="detail-card reveal">
+          <div class="detail-card__icon">◷</div>
+          <h3>La hora</h3>
+          <p>Recepción desde</p><strong>7:00 p. m.</strong><p>Te esperamos puntualmente</p>
+        </article>
+        <article class="detail-card reveal">
+          <div class="detail-card__icon">⌖</div>
+          <h3>El lugar</h3>
+          <p>Salón de recepción</p><strong>Por confirmar</strong><p>Dirección próximamente</p>
+        </article>
+      </div>
+      <p class="details__note">Guarda esta fecha. ¡Será una alegría contar contigo!</p>
+    </section>
+
+    <section class="dresscode section">
+      <div class="dresscode__content reveal">
+        <p class="eyebrow">Una celebración especial</p>
+        <h2 class="section-title section-title--light">Código de vestimenta</h2>
+        <div class="dresscode__symbol">✧</div>
+        <p class="dresscode__main">Elegante</p>
+        <p class="dresscode__copy">Ven con tu mejor sonrisa y acompáñame a vivir una noche inolvidable.</p>
+        <p class="dresscode__small">Se reserva el color rosa para la quinceañera.</p>
+      </div>
+    </section>
+
+    <section class="gallery section section--light">
+      <p class="eyebrow reveal">Pequeños momentos, grandes recuerdos</p>
+      <h2 class="section-title reveal">Un poquito de mí</h2>
+      <div class="gallery-grid reveal">
+        <figure class="gallery-photo gallery-photo--large">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Decoración elegante con flores para una celebración" loading="lazy">
+        </figure>
+        <figure class="gallery-photo">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=85" alt="Luces cálidas de una celebración" loading="lazy">
+        </figure>
+        <figure class="gallery-photo">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=85" alt="Mesa decorada para un evento especial" loading="lazy">
+        </figure>
+      </div>
+      <p class="gallery__hint">Estas imágenes son de muestra. Puedes reemplazarlas por tus fotografías.</p>
+    </section>
+
+    <section class="rsvp section">
+      <div class="rsvp__content reveal">
+        <p class="eyebrow">Tu compañía es mi mejor regalo</p>
+        <h2 class="section-title section-title--light">¿Me acompañas?</h2>
+        <p>Confirma tu asistencia. ¡Será maravilloso celebrar este día contigo!</p>
+        <a class="button button--light" id="whatsappLink" href="#" target="_blank" rel="noopener">Confirmar por WhatsApp <span>↗</span></a>
+        <p class="rsvp__small">Reemplaza el número de WhatsApp en <code>js/script.js</code> para activar las confirmaciones.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__ornament">✧ ❀ ✧</div>
+      <p class="script-note">Con amor,</p>
+      <p class="footer__name">Jazmin</p>
+      <p class="footer__date">15 · 11 · 2026</p>
+      <p class="footer__credit">Hecho con cariño para un día especial</p>
+    </footer>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
